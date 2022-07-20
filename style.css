@@ -57,9 +57,7 @@ h3 {
   display: block;
   color: #a6d0e4;
   border: none;
-  padding: 10px 10px;
   margin: 0 auto;
-  margin-top: 20px;
 }
 #about-me {
   font-weight: bold;
@@ -73,4 +71,7 @@ h3 {
   text-decoration: none;
   color: rgb(39, 3, 3);
   font-size: 15px;
+}
+.mainBody {
+  margin-top: 100px;
 }
