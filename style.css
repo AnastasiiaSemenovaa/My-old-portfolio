@@ -1,11 +1,7 @@
 body {
   text-align: center;
-  font-family: "Quicksand", sans-serif;
-  background: radial-gradient(
-    344px at 1.4% 0%,
-    rgb(242, 185, 252) 19.3%,
-    rgb(250, 254, 190) 80.7%
-  );
+  font-family: "Lexend Exa", sans-serif;
+  background: #fef9f8;
 }
 h1 {
   font-size: 20px;
@@ -13,13 +9,15 @@ h1 {
 h2 {
   font-size: 40px;
   font-weight: bold;
+  font-family: "Rubik Mono One", sans-serif;
 }
 h3 {
-  font-size: 30px;
+  font-size: 25px;
 }
+
 :root {
   --primary-color: black;
-  --background: #fff5ec;
+  --background: #fdf0e5;
   --text-align: center;
 }
 #main-button {
@@ -28,11 +26,12 @@ h3 {
   padding: 20px 20px;
   margin: 10px 10px;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
-  color: #d4a5a5;
+  color: brown;
 }
 .name {
   color: var(--primary-color);
   text-align: var(--text-align);
+  padding: 150px 10px;
 }
 
 .origin {
@@ -42,22 +41,23 @@ h3 {
 }
 .styleName {
   font-size: 20px;
-  font-weight: bold;
-  border: 1px solid grey;
+  font-family: "Rubik Mono One", sans-serif;
 }
 .weatherName {
   font-size: 20px;
-  font-weight: bold;
-  border: 1px solid grey;
+  font-family: "Rubik Mono One", sans-serif;
 }
 .row {
   margin: 50px 10px;
 }
 .project {
   display: block;
-  color: #a6d0e4;
+  background: var(--background);
+  color: brown;
   border: none;
   margin: 0 auto;
+  padding: 10px 20px;
+  border-radius: 4px;
 }
 #about-me {
   font-weight: bold;
@@ -75,18 +75,31 @@ h3 {
 .mainBody {
   margin-top: 100px;
 }
-@media (max-width: 576px) {
+@media (max-width: 600px) {
   .styleSite,
   .weatherSite {
     display: none;
   }
   h2,
   #about-me {
-    font-size: 30px;
+    font-size: 20px;
   }
   h1,
   h3,
   #contact {
     font-size: 20px;
   }
+}
+.container-fluid {
+  background: #f69c7e;
+}
+.work {
+  padding: 70px 20px;
+  line-height: 3;
+}
+.btn-branding {
+  border: 1px solid black;
+}
+.btn-branding:hover {
+  background: #f4dbd2;
 }
