@@ -48,7 +48,7 @@ h3 {
   font-family: "Rubik Mono One", sans-serif;
 }
 .row {
-  margin: 50px 10px;
+  margin: 20px 5px;
 }
 .project {
   display: block;
@@ -59,11 +59,10 @@ h3 {
   padding: 10px 20px;
   border-radius: 4px;
 }
-#about-me {
-  font-weight: bold;
-  margin: 20px 20px;
-  font-size: 35px;
+.linkWork {
+  text-decoration: none;
 }
+
 .border-light {
   border-color: pink !important;
 }
@@ -75,18 +74,74 @@ h3 {
 .mainBody {
   margin-top: 100px;
 }
+.about-page h1 {
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.about-page h2 {
+  font-size: 20px;
+  font-family: "Lexend Exa", sans-serif;
+  margin-bottom: 15px;
+}
+.contactMain {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 20px;
+  line-height: 1;
+}
+.contactMain h1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+  margin-bottom: 30px;
+}
+.contactMain h2,
+h3,
+h4 {
+  font-family: "Lexend Exa", sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 2;
+}
+.contactMain a {
+  text-decoration: none;
+  color: rgb(7, 7, 129);
+}
+.contactMain a:hover {
+  color: rgb(183, 11, 183);
+}
+.workPage h1 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Rubik Mono One", sans-serif;
+}
+footer {
+  margin-top: 100px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+footer h1 {
+  font-size: 18px;
+  font-family: "Rubik Mono One", sans-serif;
+}
+footer a {
+  text-decoration: none;
+  color: #b9684d;
+  line-height: 1.4;
+}
+footer i {
+  font-size: 25px;
+  padding: 20px;
+}
 @media (max-width: 600px) {
   .styleSite,
   .weatherSite {
     display: none;
   }
-  h2,
-  #about-me {
+  h2 {
     font-size: 20px;
   }
   h1,
-  h3,
-  #contact {
+  h3 {
     font-size: 20px;
   }
 }
@@ -95,11 +150,13 @@ h3 {
 }
 .work {
   padding: 70px 20px;
-  line-height: 3;
 }
 .btn-branding {
   border: 1px solid black;
 }
 .btn-branding:hover {
   background: #f4dbd2;
+}
+.workPage img {
+  width: 00;
 }
