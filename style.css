@@ -75,7 +75,7 @@ h3 {
   margin-top: 100px;
 }
 .about-page h1 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 25px;
 }
 .about-page h2 {
@@ -85,11 +85,11 @@ h3 {
 }
 .contactMain {
   font-family: "Lexend Exa", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1;
 }
 .contactMain h1 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   font-family: "Rubik Mono One", sans-serif;
   margin-bottom: 30px;
@@ -98,7 +98,7 @@ h3 {
 h3,
 h4 {
   font-family: "Lexend Exa", sans-serif;
-  font-size: 27px;
+  font-size: 20px;
   font-weight: bold;
   line-height: 2;
 }
@@ -115,12 +115,12 @@ h4 {
   font-family: "Rubik Mono One", sans-serif;
 }
 footer {
-  margin-top: 100px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  margin-top: 200px;
   font-size: 15px;
 }
 footer h1 {
-  font-size: 18px;
+  font-size: 15px;
   font-family: "Rubik Mono One", sans-serif;
 }
 footer a {
@@ -132,6 +132,7 @@ footer i {
   font-size: 25px;
   padding: 20px;
 }
+
 .code {
   text-decoration: none;
   color: blueviolet;
@@ -149,6 +150,9 @@ footer i {
   h3 {
     font-size: 20px;
   }
+  .my-picture {
+    display: none;
+  }
 }
 .navbar {
   background: #f69c7e;
@@ -161,7 +165,4 @@ footer i {
 }
 .btn-branding:hover {
   background: #f4dbd2;
-}
-.workPage img {
-  width: 00;
 }
